@@ -10,6 +10,6 @@
 I am An Automobile Professonal with 12 + Years of experiance in the Field of Automobile Manufacturing, Field Service, 
 Sales and Assessments related to Automobiles Skill sets as Per ASDC.
 I welcomes you all to the world of new learning and opportunities.</p>
-<img src="https://photos.google.com/photo/AF1QipMcpFsv-jHSIoZVqxs41eWvFp9c17mb35Y1etgY" style="width:100px;height:80px;>
+<img src="https://github.com/TheStellar/The-Mehta-Stellar/blob/master/The%20Mehta%20Stellar%20Logo.jpg">
 </body>
 </html>
