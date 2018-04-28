@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to The Mehta Stellar
 
 You can use the [editor on GitHub](https://github.com/TheStellar/The-Mehta-Stellar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
