@@ -4,7 +4,6 @@
 <title>Page Title</title>
 </head>
 <body>
-
 <h1>The Mehta Stellar</h1>
 <p>Hi Guys Welcome to the world of Professional Consultation in the field of Automobile Sales and Service Operations.
 I am An Automobile Professonal with 12 + Years of experiance in the Field of Automobile Manufacturing, Field Service, 
