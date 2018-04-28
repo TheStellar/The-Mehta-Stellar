@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Page Title <img src="The Mehta Stellar Logo.jpg" alt="The Mehta Stellar Logo.jpg">/title>
 </head>
 <body>
 <h1>The Mehta Stellar</h1>
