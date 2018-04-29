@@ -21,10 +21,10 @@ I welcomes you all to the world of new learning and opportunities.</p>
 <input type="submit" value="Send"><input type="reset" value="Clear">
 </form>
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$dropdown = $POST['dropdown'];
-$message = $_POST['message'];
+$name = $_POST['Your Name'];
+$email = $_POST['Your Email'];
+$dropdown = $POST['Location'];
+$message = $_POST['Please Write your query here'];
 $formcontent="From: $name \n Message: $message";
 $recipient = "jai.mehta85@outlook.com";
 $subject = "Contact Form";
@@ -32,6 +32,3 @@ $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
 ?>
-<p>Request Phone Call:</p>
-Yes:<input type="checkbox" value="Yes" name="call"><br />
-No:<input type="checkbox" value="No" name="call"><br />
