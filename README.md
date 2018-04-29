@@ -6,18 +6,18 @@ I am An Automobile Professonal with 12 + Years of experiance in the Field of Aut
 Sales and Assessments related to Automobiles Skill sets as Per ASDC.
 I welcomes you all to the world of new learning and opportunities.</p>
 <form action="mail.php" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Phone</p> <input type="text" name="phone">
-<p>Dropdown Box</p>
-<select name="dropdown" size="1">
+<p>Name</p> <input type="text" Your Name="name">
+<p>Email</p> <input type="text" name="Your email">
+<p>Phone</p> <input type="text" name="Your Contact No.">
+<p>Location</p>
+<select name="Location" size="1">
 <option value="Area">Himachal</option>
 <option value="Area">Panchkulla</option>
 <option value="Area">Chandigarh</option>
 <option value="Area">others</option>
 </select>
 <br />
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<p>Message</p><textarea name="Please Write your query here" rows="6" cols="25"></textarea><br />
 <input type="submit" value="Send"><input type="reset" value="Clear">
 </form>
 <?php
@@ -25,10 +25,10 @@ $name = $_POST['Your Name'];
 $email = $_POST['Your Email'];
 $dropdown = $POST['Location'];
 $message = $_POST['Please Write your query here'];
-$formcontent="From: $name \n Message: $message";
+$formcontent="From: $Your Name \n Message: $Please Write your query here";
 $recipient = "jai.mehta85@outlook.com";
 $subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+$mailheader = "From: $Your Email \r\n";
+mail($recipient, $subject, $formcontent, $mailheader);
 echo "Thank You!";
 ?>
