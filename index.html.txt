@@ -11,6 +11,16 @@ I am An Automobile Professonal with 12 + Years of experiance in the Field of Aut
 Sales and Assessments related to Automobiles Skill sets as Per ASDC.
 I welcomes you all to the world of new learning and opportunities.</p>
 </body>
+<form action="contact.php" method="post">
+    Your name<br>
+    <input type="text" name="cf_name"><br>
+    Your e-mail<br>
+    <input type="text" name="cf_email"><br>$mail_to = 'test@test-mail.com';
+    Message<br>
+    <textarea name="cf_message"><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
 </html>
 
 
