@@ -12,77 +12,26 @@ Sales and Assessments related to Automobiles Skill sets as Per ASDC.
 I welcomes you all to the world of new learning and opportunities.</p>
 <img SRC="Pictures/Logo.jpg" WIDTH="100" HEIGHT="57">
 </body>
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
 </html>
 
-<div class="container">
-  <form action="action_page.php">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="State/UT">State/UT</label>
-    <select id="State/UT" name="State/UT">
-      <option value="Himachal Pradesh">Himachal Pradesh</option>
-      <option value="Chandiagrh">Chandigarh</option>
-      <option value="Punjab">Punjab</option>
-      <option value="Haryana">Punjab</option>
-    </select>
-
-<label for="Locality">Locality</label>
-    <select id="Locality" name="Locality">
-      <option value="Shimla">Shimla</option>
-      <option value="Chandiagrh">Chandigarh</option>
-      <option value="Panchkulla">Panchkulla</option>
-      <option value="Solan">Solan</option>
-      <option value="Mandi">Mandi</option>
-      <option value="Kangra">kangra</option>
-      <option value="Palampur">Palampur</option>
-      <option value="Hamirpur">Hamirpur</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-
-Step 2) Add CSS:
-Example
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
