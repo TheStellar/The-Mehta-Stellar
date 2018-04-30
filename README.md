@@ -29,6 +29,6 @@ $formcontent="From: $Your Name \n Message: $Please Write your query here";
 $recipient = "jai.mehta85@outlook.com";
 $subject = "Contact Form";
 $mailheader = "From: $Your Email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader);
+mail($recipient, $subject, $formcontent, $mailheader,smtp.gmail.com,smtp.mail.yahoo.com);
 echo "Thank You!";
 ?>
